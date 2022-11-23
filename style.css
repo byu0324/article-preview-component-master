@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -5,21 +7,96 @@
 }
 
 body {
-
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
 }
 
 .container {
-  width: 60%;
+  width: 700px;
+  height: 264px;
+  position: relative;
   display: flex;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
 }
 
 .picture {
-  width: 300px;
+  min-width: 264px;
+  overflow: hidden;
+}
+
+.picture img {
+  width: 330px;
+}
+
+.info {
+  padding: 28px 42px 28px 35px;
+}
+
+.text1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+  word-spacing: 2px;
+  margin-bottom: 13px;
+}
+
+.text2 {
+  color: hsl(214, 17%, 51%);
+  margin-bottom: 20px;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.woman {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 14px;
+}
+
+.profile_info {
+  text-align: start;
+  line-height: 20px;
+  margin-right: 150px;
+  vertical-align: middle;
+}
+
+.name {
+  font-weight: 700;
+  color:hsl(217, 19%, 35%);
+}
+
+.date {
+  color: hsl(212, 23%, 69%);
+}
+
+button {
+  border-radius: 50%;
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: hsl(210, 46%, 95%);
+  cursor: pointer;
+}
+
+button img {
+  
 }
 
 .attribution a {
